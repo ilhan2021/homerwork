@@ -36,7 +36,7 @@ function UserList({ users }) {
         <tbody>
           {users
             .sort((a, b) => (a.name > b.name ? 1 : -1))
-            .filter((user) => {
+            .filter((user) =>  {
                 if (searchTerm === '') {
                   return user;
                 } else if (user.name.toLowerCase().includes(searchTerm.toLowerCase())) {
