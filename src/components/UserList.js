@@ -28,7 +28,7 @@ function UserList({ users }) {
           <tr>
             <th>id</th>
             <th>Full Name</th>
-            <th>Email</th>
+            <th>E-mail</th>
             <th>Phone</th>
             <th>Details</th>
           </tr>

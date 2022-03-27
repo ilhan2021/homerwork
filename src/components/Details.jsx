@@ -1,5 +1,5 @@
 import { Button,Table } from 'react-bootstrap';
-import React, { useEffect } from 'react'
+
 import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 
@@ -20,7 +20,7 @@ function Detail() {
           <tr>
             <th>id</th>
             <th>Full Name</th>
-            <th>Email</th>
+            <th>E-mail</th>
             <th>Phone</th>
             <th>Details</th>
           </tr>

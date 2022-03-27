@@ -2,10 +2,7 @@ import React from 'react';
 import {
   MDBFooter,
   MDBContainer,
-  MDBCol,
-  MDBRow,
-  MDBInput,
-  MDBBtn
+  
 } from 'mdb-react-ui-kit';
 
 export default function Footer() {
@@ -13,7 +10,7 @@ export default function Footer() {
     <MDBFooter bgColor='light' className='text-center text-lg-left'>
       <MDBContainer className='p-4 pb-0'>
         {/* <form action=''>
-          <MDBRow>
+          <MDBRow> 
             <MDBCol size='auto' className='mb-4 mb-md-0'>
               <p className='pt-2'>
                 <strong>Sign up for our newsletter</strong>
